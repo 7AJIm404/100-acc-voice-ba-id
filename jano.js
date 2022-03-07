@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const jano = new Discord.Client();
+const jano = new Discord.Client(790673171505479680);
 const jano2 = new Discord.Client();
 const jano3 = new Discord.Client();
 const jano4 = new Discord.Client();
@@ -104,7 +104,7 @@ const jano100 = new Discord.Client();
 
 ///////////////////
 jano.on("ready", () => {
-  var join = jano.channels.get(""); /// id voice
+  var join = jano.channels.get("896104946926235739"); /// id voice
   if (join) join.join();
 });
 ///////////////////
